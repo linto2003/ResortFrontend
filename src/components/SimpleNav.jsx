@@ -11,7 +11,7 @@ const SimpleNav = () => {
         </a>
 
         <ul className="nav-links">
-          <li><a href="#stay">Stay</a></li>
+          <li><a href="#stay"> Stay</a></li>
           <li><a href="#experiences">Experiences</a></li>
           <li><a href="#gallery">Gallery</a></li>
           <li><a href="#contact" className="nav-cta">Contact</a></li>
