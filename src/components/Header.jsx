@@ -1,5 +1,5 @@
 import SimpleNav from './SimpleNav';
-import '../css/Header.css';
+import '../css/header.css';
 
 const Header = () => {
   return (
