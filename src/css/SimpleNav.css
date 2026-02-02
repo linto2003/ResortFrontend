@@ -93,3 +93,44 @@
     font-size: 13px;
   }
 }
+
+
+/* ---------- MOBILE NAV FIX ---------- */
+@media (max-width: 768px) {
+  .simple-nav {
+    top: 12px;
+    width: calc(100% - 24px);
+    border-radius: 14px;
+  }
+
+  .nav-inner {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 14px;
+  }
+
+  /* logo */
+  .nav-logo img {
+    height: 30px;
+  }
+
+  /* links row */
+  .nav-links {
+    width: 100%;
+    justify-content: center;
+    gap: 16px;
+
+    /* prevent crushing */
+    flex-wrap: wrap;
+  }
+
+  .nav-links a {
+    font-size: 13px;
+  }
+
+  /* contact pill tighter */
+  .nav-cta {
+    padding: 5px 12px;
+  }
+}
