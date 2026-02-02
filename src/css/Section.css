@@ -676,3 +676,107 @@
     font-size: 14px;
   }
 }
+
+/* ===============================
+   GALLERY – RESPONSIVE
+   =============================== */
+
+.section.gallery {
+  background: #0e1214;
+  color: #fff;
+}
+
+/* container */
+.gallery-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* eyebrow */
+.gallery-eyebrow {
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin-bottom: 14px;
+}
+
+/* title */
+.gallery-title {
+  font-size: clamp(32px, 5vw, 52px);
+  font-weight: 500;
+  line-height: 1.15;
+  margin-bottom: 18px;
+}
+
+/* description */
+.gallery-subtext {
+  max-width: 520px;
+  margin: 0 auto 48px;
+  font-size: 16px;
+  line-height: 1.7;
+  opacity: 0.75;
+}
+
+/* gallery stage */
+.gallery-stage {
+  position: relative;
+  height: 560px;
+  width: 100%;
+  overflow: hidden;
+
+  border-radius: 24px;
+}
+
+/* ===============================
+   TABLET
+   =============================== */
+@media (max-width: 1024px) {
+  .gallery-stage {
+    height: 480px;
+  }
+
+  .gallery-subtext {
+    margin-bottom: 40px;
+  }
+}
+
+/* ===============================
+   MOBILE
+   =============================== */
+@media (max-width: 768px) {
+  .section.gallery {
+    padding: 72px 24px;
+  }
+
+  .gallery-title {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  .gallery-subtext {
+    font-size: 15px;
+    margin-bottom: 32px;
+  }
+
+  .gallery-stage {
+    height: 360px;
+    border-radius: 16px;
+  }
+}
+
+/* ===============================
+   SMALL MOBILE
+   =============================== */
+@media (max-width: 480px) {
+  .gallery-title {
+    font-size: 26px;
+  }
+
+  .gallery-stage {
+    height: 300px;
+  }
+}
+
